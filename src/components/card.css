@@ -1,0 +1,21 @@
+.card {
+    cursor: pointer;
+
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+
+.card--stats {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.stars {
+    display: flex;
+}
+

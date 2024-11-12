@@ -1,0 +1,74 @@
+.signup {
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+}
+.top-sign {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.top {
+    position: absolute;
+    top: -50px;
+    left: -16px;
+}
+
+.signup-login{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: rgba(1, 152, 116, 0.5);
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 3em 1em;
+}
+
+.signup-login .info {
+    padding: 2em 0em 5em 0em;
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        margin: 10px 20px;
+
+
+    }
+}
+
+.signup-login form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-login form .same1 {
+    padding: .7em;
+    border: none;
+    padding: 1em 0.7em;
+    border-radius: 15px;
+}
+
+.signup-login form .same1-btn{
+    background-color: #019874;
+    font-size: 1.5rem;
+    padding: 0.4em 0.4em;
+    color: white;
+    cursor: pointer;
+}
+
+.signup1 .signup-btn{
+    background-color: #019874;
+    font-size: 1.3rem;
+    padding: 0.4em 0.8em;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+
+}

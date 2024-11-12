@@ -1,0 +1,56 @@
+.login {
+    height: 100vh;
+    padding: 1em;
+    margin-top: 40px;
+
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-login h1 {
+    background-color: #06A881;
+    color: white;
+    padding: 0.3em;
+    border-radius: 15px;
+}
+
+.form-login form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+        background-color: #06A881;
+    }
+
+}
+
+
+.form-login .same, .register-btn{
+    padding: .7em;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: #06A881;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.register {
+    .register-btn {
+        padding: .7em 2em;
+        border-radius: 10px;
+    }
+}

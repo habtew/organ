@@ -1,0 +1,126 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    position: relative;
+    .nav-txt {
+        p {
+            span {
+                display: block;
+                font-weight: bolder;
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .navv {
+
+        .nav-top{
+            position: absolute;
+            width: 100px;
+            transform: rotateY(180deg);
+            top: 0;
+            right: 0;
+        }
+
+        .nav-prof {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 50px;
+                height: 50px;
+                background-color: white;
+                border-radius: 100px;
+                z-index: 10121;
+            }
+        }
+    }
+}
+.searc {
+    margin: 20px;
+    .search {
+        padding: .6em;
+        width: 90%;
+    
+    }
+}
+
+.another {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    div {
+        display: flex;
+        justify-content: space-between;
+        
+        p {
+            padding: 10px;
+        }
+        .first {
+            border-bottom: 2px solid #EFB110;
+            
+        }
+    }
+}
+
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex; 
+    flex-direction: column; 
+    position: relative;
+}
+
+.cards-list{
+    /* display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+
+}
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: #019874;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 500px) {
+    footer {
+      width: 500px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .nav {
+        width: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+  }
