@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         id: 1,
         name: "Dr. habtamu gebre",
@@ -18,3 +18,5 @@ export default [
         arrow: "arrow.png",
     }
 ]
+
+export default data;
