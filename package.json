@@ -12,7 +12,8 @@
     "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "eslint": "8.57.1"
   },
   "scripts": {
     "start": "react-scripts start",
